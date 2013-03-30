@@ -588,7 +588,6 @@ public class Lixeira extends javax.swing.JFrame {
         LixoSliderO.setValue(P1SliderO.getValue() + P2SliderO.getValue() + P3SliderO.getValue());
         totalOleo = P1SliderO.getValue() + P2SliderO.getValue() + P3SliderO.getValue();
         widgetLixo.updateData("quantOleo", totalOleo);
-        jTextArea1.setText("funciona");
     }//GEN-LAST:event_P2SliderOStateChanged
 
     private void P2SliderVStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_P2SliderVStateChanged
